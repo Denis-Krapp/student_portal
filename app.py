@@ -6,7 +6,9 @@ def main():
 
 def login(username):
     print(f"User {username} logged in. Hello!")
-    print(f"Welcpme, {username}")
+    print(f"Welcome, {username}")
+    print(f"How are you, {username}?")
+    print(f"Good day, {username}, isn't it?")
 
 if __name__ == "__main__":
     main()
