@@ -10,5 +10,8 @@ def login(username):
     print(f"How are you, {username}?")
     print(f"Good day, {username}, isn't it?")
 
+def logout(username):
+    print(f"User {username} logged out.")
+
 if __name__ == "__main__":
     main()
